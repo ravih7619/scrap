@@ -8,8 +8,9 @@ from datetime import timedelta
 import MySQLdb
 import re
 from datetime import date, timedelta
-import matplot
+#import matplot
 import dateutil.parser as dparser
+import numpy
 
 db = MySQLdb.connect(host="localhost",  # your host, usually localhost
                      user="root",  # your username
